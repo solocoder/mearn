@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flexbox Styling</title>
+
+    <style>
+
+        
+#d1{
+ 
+ height: 150px;
+ width: 150px;
+ background-color: red;
+display: inline-block;
+/* visibility: hidden; */
+}
+
+
+#d2{
+
+height: 150px;
+width: 150px;
+background-color: green;
+}
+
+
+#d3{
+
+height: 150px;
+width: 150px;
+background-color: rgb(19, 51, 125);
+}
+
+
+
+        #main{
+
+            height: 350px;
+            background-color: salmon;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* display: flex;
+            justify-content: flex-start; */
+            /* justify-content: space-around; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-evenly;
+            align-items: center; */
+        }
+
+        body{
+            margin: 0%;
+        }
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div id="main">
+
+        <div id="d1">Div 1</div>
+
+        <div id="d2">Div 2</div>
+
+        <div id="d3">Div 3</div>
+
+        
+        <div id="d1">Div 4</div>
+
+        <div id="d2">Div 5</div>
+
+        <div id="d3">Div 6</div>
+
+
+
+    </div>
+    
+</body>
+</html>

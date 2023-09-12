@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+     background-color: #17171a; 
+}
+
+.header{
+    position: absolute;
+    height: 100px;
+    width: 1550px;
+    background-color:#17171a;
+}
+
+#headerElement1{
+    position: absolute;
+    height: 20px;
+    width: 45px;
+    /* background-color: green; */
+    top: 50px;    
+    left: 1200px;
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#headerElement2{
+    position: absolute;
+    height: 20px;
+    width: 45px;
+    /* background-color: green; */
+    top: 50px;    
+    left: 1300px;
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#headerElement3{
+    position: absolute;
+    height: 20px;
+    width: 45px;
+    /* background-color: green; */
+    top: 50px;    
+    left: 1400px;
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+#headerElement4{
+    position: absolute;
+    height: 20px;
+    width: 45px;
+    /* background-color: green; */
+    top: 50px;    
+    left: 1100px;
+    color: #EEEEEE;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.name{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    height: 400px;
+    width: 600px;
+    /* background-color:#222831; */
+    border-radius: 10px;
+}
+
+#hi{
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: #666e7b;
+}
+
+#iam{
+    font-size: 80px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    color: #EEEEEE;
+}
+
+#nand{
+    font-size: 100px;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    color: #00ADB5;
+    /* font-weight: bold; */
+}
+
+/* #ddf{
+    color: #EEEEEE;
+    position: relative;
+    top: 230px;
+    left: 30px;
+    opacity: 0.5;
+    font-size: 30px;
+} */
+
+#b1{
+
+    position: absolute;
+    top: 280px;
+    left:400px;
+  }
+
+
+button{
+
+    color:black;
+    background-color: cyan;
+    border-color:cyan;
+    height: 40px;
+    width: 120px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+    border: 10px ;
+    border-radius: 5px;
+    box-shadow: none;
+
+    }
+
+button:hover{
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    }
+
+    #AboutDiv{
+
+            position: absolute;
+            top: 130px;
+            left: 800px;
+            height: 320px;
+            width: 650px;
+            /* background-color:#222831; */
+            border-radius: 10px;
+    }
+
+    #About{
+
+        font-size: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: #60c8c6;  
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+    }
+
+    #AboutDes{
+        position: absolute;
+        top: 40px;
+        color: #EEEEEE;
+        font-size: 20px;
+        font-family: system-ui;
+    }
+
+    #designer{
+
+        font-weight: bold;
+        color: #00ADB5;
+    }
+
+    #developer{
+
+        font-weight: bold;
+        color: #00ADB5;
+    }
+
+    #freelancer{
+
+        font-weight: bold;
+        color: #00ADB5;
+    }
+
+    #aboutDes1{
+        position: absolute;
+        top: 80px;
+        color: #EEEEEE;
+        font-size: 20px;
+        font-family: system-ui;
+    }
+
+    #webdesign{
+        font-weight: bold;
+        color: #00ADB5;
+
+    }
+
+    #webdev{
+        font-weight: bold;
+        color: #00ADB5;
+    }
+
+    #tosolve{
+        position: absolute;
+        top: 40px;
+
+    }
+
+    #tosolveit{
+        position: absolute;
+        top: 80px;
+
+
+    }
+
+     #lst{
+        position: absolute;
+        top: 120px;
+    }
+
+    #usrEx{
+        font-weight: bold;
+        color: #00ADB5;
+    }
+
+    #contact{
+        font-size: 100px;
+        position: absolute;
+        top: 420px;
+        left: 800px;
+        color: #60c8c6;  
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+
+    }
+
+    #contactDiv{
+
+        position: absolute;
+        top: 470px;
+        left: 800px;
+        height: 200px;
+        width: 500px;
+        background-color: #222831;
+        border-radius: 10px;
+        border: 5px solid;
+        border-color: #00ADB5;
+    }
+
+    #sendButton{
+
+        position: absolute;
+        top: 145px;
+        left: 375px;
+        height: 40px;
+        width: 100px;
+    }
+
+    td{
+        font-size: 30px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000000;
+    }
+
+    input{
+        position: relative;
+        top: 10px;
+        left: 220px;
+        height: 30px;
+        width: 250px;
+        border: 1px solid;
+        border-color: #000000;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #b2d6eb;
+    }
+    
+    #Eyn{
+        font-size: 20px;
+        font-family: system-ui;
+        color: #ffffff;
+        font-weight: bold;
+        position: relative;
+        top: 45px;
+        left: 30px;
+
+    }
+
+    #Eye{
+        font-size: 20px;
+        font-family: system-ui;
+        color: #ffffff;
+        font-weight: bold;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+
+    }
+
+
+
